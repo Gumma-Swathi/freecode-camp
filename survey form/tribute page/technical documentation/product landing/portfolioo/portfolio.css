@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family:arial,sans-serif;
+}
+#navbar{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  background:#333;
+  padding:10px 0;
+}
+#navbar ul{
+  display:flex;
+  justify-content:center;
+  list-style:none;
+}
+#navbar ul li{
+  margin :0 15px;
+}
+#navbar ul li a{
+  text-decoration:none;
+
+}
+#navbar ul li a:hover{
+  text-decoration:underline;
+}
+#welcome-section{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:lightblue;
+  padding-top:50px;
+}
+#projects{
+  padding:50px;
+  background:#f4f4f4;
+
+}
+.project-tile{
+  margin:20px 0;
+}
+.project-tile a{
+  text-decoration:none;
+  color:#0077cc;
+  font-size:18px;
+}
+.project-tile a:hover{
+  text-decoration:underline;
+}
+@media(max-width:600px){
+  #navbar ul{
+    flex-direction:column;
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form 
+</title>
+<meta chraset="utf-8">
+<meta name=" viewport" content ="wodth=device-width, initial-scale=1.0">
+<link rel="style-sheet" href="survey-form.css">
+  </head>
+  <body>
+    <h1 id="title">SURVEY  FORM</h1>
+    <p id="description">this is a small survey form</p>
+    
+    <form id="survey-form" value="survey-form">
+      <div class="input-element">
+<label for="name-label" id="name-label">enter name:
+<input id="name" required type="text" placeholder="enter your full name"></label>
+ 
+ <label for="email" id="email-label" > enter email:
+   <input type="email" name="email" id="email" required placeholder="enter your email"></label><br>
+   </div> 
+ <div class="input-element"> 
+  
+  <label for="number"
+id="number-label">  enter your age number:
+<input type="number" id="number" min="0"  max="1000000000" placeholder="enter your mobile number" required></label>
+     
+ select favorite language
+ <select id="dropdown">
+   <option>c</option>
+   <option>c++</option>
+   <option>java</option>
+   </select>  <br>
+   <label>favorite type of sport:</label>
+   <input type="radio" name="radio-button"
+   value="button">indoor
+   <input type="radio"
+   name="radio-button"
+   value="button">outdoor<br>
+   your favorite teacher is a:<input type="checkbox"
+   name="check-box" value="box">boy
+   <input type="checkbox" name="check-box" value="box">girl
+
+   <textarea>text here.............</textarea>
+   <button id="submit" > submit </button>
+   
+
+     </form>
+    
+  </body>
+  </html>
